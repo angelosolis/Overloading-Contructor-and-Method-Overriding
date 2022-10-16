@@ -1,0 +1,13 @@
+public class Trees
+    {
+        protected String treesname;
+        public Trees(){
+            this.treesname = " ";           
+        }
+        public Trees(String treesname){
+            this.treesname = treesname;
+        }
+        public void display(){
+        System.out.println("Tree name is: "+ treesname);
+        }   
+     }
